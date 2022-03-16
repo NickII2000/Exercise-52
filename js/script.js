@@ -24,6 +24,8 @@ inputRub.addEventListener('input', () => {
         }
     });
 
+    console.log('========================');
+
     // status
     // statusText
     // response
