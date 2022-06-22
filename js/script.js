@@ -12,6 +12,11 @@ inputRub.addEventListener('input', () => {
     request.setRequestHeader('Content-type', 'application/json; charset=utf-8');
     request.send();
 
+    // status
+    // statusText
+    // response
+    // readyState
+
     // request.addEventListener('readystatechange', () => {
     request.addEventListener('load', () => {
         // if (request.readyState === 4 && request.status === 200) {
