@@ -8,7 +8,7 @@ inputRub.addEventListener('input', () => {
 
     // request.open(method, url, async, login, pass);
 
-    request.open('GET', 'js/current.json');
+    request.open('GET', 'js/current.json1');
     request.setRequestHeader('Content-type', 'application/json; charset=utf-8');
     request.send();
 
